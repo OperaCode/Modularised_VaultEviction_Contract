@@ -34,6 +34,7 @@ contract VaultStorage {
 
     mapping(bytes32 => bool) public usedHashes;
 
+
     uint256 public constant TIMELOCK_DURATION = 1 hours;
 
     uint256 public totalVaultValue;
