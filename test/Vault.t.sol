@@ -1,8 +1,10 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import "forge-std/Test.sol";
-import "../src/EvictionVault.sol";
+
+import {Test} from "forge-std/Test.sol";
+import {EvictionVault} from "../src/EvictionVault.sol";
+
 
 contract VaultTest is Test {
 

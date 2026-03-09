@@ -1,8 +1,9 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.20;
 
-import "./modules/VaultCore.sol";
-import "./modules/VaultGovernance.sol";
+
+import {VaultCore} from "./modules/VaultCore.sol";
+import {VaultGovernance} from "./modules/VaultGovernance.sol";
 
 contract EvictionVault is VaultCore, VaultGovernance {
 
