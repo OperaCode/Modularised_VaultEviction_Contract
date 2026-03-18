@@ -118,4 +118,4 @@ Focused on building secure and scalable Web3 systems.
 
 ### License
 
-This project is licensed under the MIT License.
+ MIT

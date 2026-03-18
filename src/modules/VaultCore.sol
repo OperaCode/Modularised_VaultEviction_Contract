@@ -3,7 +3,9 @@ pragma solidity ^0.8.20;
 
 
 // This contract implements the core functionality of the EvictionVault, including deposits, withdrawals, and claims based on a Merkle tree.
+
 import {VaultStorage} from "./VaultStorage.sol";
+
 import {MerkleProof} from "@openzeppelin/contracts/utils/cryptography/MerkleProof.sol";
 
 contract VaultCore is VaultStorage {
@@ -26,7 +28,6 @@ contract VaultCore is VaultStorage {
         emit Deposit(msg.sender, msg.value);
     }
 
-    
     function deposit() external payable {
 
         require(msg.value > 0, "zero deposit");
